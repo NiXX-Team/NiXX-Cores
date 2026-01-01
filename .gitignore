@@ -1,0 +1,29 @@
+# Build outputs
+build/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.o
+*.obj
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*~
+
+CHANGELOG.md
