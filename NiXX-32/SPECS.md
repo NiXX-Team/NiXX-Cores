@@ -4,10 +4,10 @@
 | ------------------------ | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | **CPU**                  | Motorola 68000 @ 10 MHz                                                    | Motorola 68000 @ 16 MHz                                                    |
 | **Co-Processor**         | Zilog Z80H @ 8 MHz (audio processing)                                      | Same                                                                       |
-| **Hardware Math**        | Fixed-point arithmetic only (no FPU)                                       | Fixed-point + hardware multiply assist registers (16x16 -> 32)             |
+| **Hardware Math**        | Fixed-point arithmetic                                                     | Fixed-point + hardware multiply assist registers (16x16 -> 32)             |
 | **System Memory**        | 1 MB                                                                       | 2 MB                                                                       |
 | **Video Memory**         | 512 KB (standard VRAM)                                                     | 1 MB (dual-port VRAM)                                                      |
-| **Resolution**           | 384x224 pixels                                                             | 384x224 pixels                                                             |
+| **Resolution**           | 384x224 pixels                                                             | Same                                                                       |
 | **Color Depth**          | 15-bit RGB555 (32,768 color space), 1,024 addressable per frame            | 16-bit RGB565 (65,536 color space), 4,096 addressable per frame            |
 | **Sprite Handling**      | 96 simultaneous, 16-20 per scanline                                        | 128 simultaneous, 24-32 per scanline                                       |
 | **Maximum Sprite Size**  | 32x32 pixels                                                               | 64x64 pixels                                                               |
